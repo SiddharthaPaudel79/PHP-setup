@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+    background: #fafafa;
+}
+
+h1{
+    text-align: center;
+}
+
+.cake-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-card{
+    background: #fff;
+    padding: 15px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+
+.cake-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 15px;
+    background: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
